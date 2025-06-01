@@ -9,12 +9,12 @@
 
 # Key Steps
 
-1.Load and explore the dataset
-2.Preprocess data with train/test split and feature standardization
-3.Train a logistic regression model
-4.Evaluate performance using confusion matrix, precision, recall, F1-score, and ROC-AUC
-5.Demonstrate the impact of changing the classification threshold
-6.Provide insight into how the sigmoid function works in logistic regression
+* Load and explore the dataset
+* Preprocess data with train/test split and feature standardization
+* Train a logistic regression model
+* Evaluate performance using confusion matrix, precision, recall, F1-score, and ROC-AUC
+* Demonstrate the impact of changing the classification threshold
+* Provide insight into how the sigmoid function works in logistic regression
 
 # Output 
 
