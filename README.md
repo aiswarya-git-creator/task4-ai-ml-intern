@@ -2,10 +2,10 @@
 
 # Tools Used
 
-1.Python
-2.Pandas for data handling
-3.Scikit-learn for modeling and evaluation
-4.Matplotlib for plotting the ROC curve
+* Python
+* Pandas for data handling
+* Scikit-learn for modeling and evaluation
+* Matplotlib for plotting the ROC curve
 
 # Key Steps
 
