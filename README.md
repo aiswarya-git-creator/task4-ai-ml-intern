@@ -4,20 +4,37 @@
 
 * Python
 * Pandas for data handling
-* Scikit-learn for modeling and evaluation
-* Matplotlib for plotting the ROC curve
+* Scikit-learn for model training and evaluation
+* Matplotlib for plotting the ROC and sigmoid curves
+* NumPy for mathematical operations
 
-# Key Steps
+# Key Features
 
-* Load and explore the dataset
-* Preprocess data with train/test split and feature standardization
-* Train a logistic regression model
-* Evaluate performance using confusion matrix, precision, recall, F1-score, and ROC-AUC
-* Demonstrate the impact of changing the classification threshold
-* Provide insight into how the sigmoid function works in logistic regression
+# Data Loading & Preprocessing
+  * Uses the Breast Cancer dataset from scikit-learn.
+  * Splits into training and testing sets.
+  * Applies standard scaling to features.
 
-# Output 
+# Model Training
 
-* Red Curve (ROC Curve): Shows the trade-off between True Positive Rate (TPR) and False Positive Rate (FPR) at different thresholds.
-* Green Dashed Line: Represents a random classifier (AUC = 0.5). Any model performing better should lie above this line.
-* AUC = 1.00: This indicates perfect classification on your test set — which means the model predicted all instances correctly. While this may happen with clean datasets like the Breast Cancer Wisconsin dataset, it’s rare in real-world data and can sometimes suggest overfitting.
+Trains a Logistic Regression model on the processed data.
+
+# Model Evaluation
+
+  * Outputs confusion matrix, precision, recall, F1-score.
+  * Calculates and plots the ROC curve.
+  * Computes ROC-AUC score.
+
+# Threshold Tuning
+
+* Demonstrates how changing the classification threshold affects predictions.
+
+# Sigmoid Function Demonstration
+
+* Shows how the sigmoid function transforms raw decision scores into probabilities.
+* Includes a plot of the sigmoid function for visual understanding.
+
+# Outputs
+
+* Terminal outputs for performance metrics and sigmoid calculations.
+* Graphical outputs for ROC curve and sigmoid curve.
